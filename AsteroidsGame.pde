@@ -4,7 +4,7 @@ ArrayList <Asteroid> asteroids;
 
 public void setup() 
 {
-  asteroids = new ArrayList<>();
+  asteroids = new ArrayList<Asteroid>();
   size (400,400);
   for (int i = 0; i < nightSky.length; i++) {
     nightSky[i] = new Star ();
